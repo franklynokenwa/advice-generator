@@ -1,0 +1,16 @@
+.container {
+  background-color: hsl(217deg, 19%, 24%);
+  width: 30%;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.container h3 {
+  color: hsl(150deg, 100%, 66%);
+}
+.container p {
+  color: hsl(193deg, 38%, 86%);
+}
+.container hr {
+  color: hsl(217deg, 19%, 38%);
+}/*# sourceMappingURL=AdviceContainer.module.css.map */
