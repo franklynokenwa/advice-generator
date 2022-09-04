@@ -6,22 +6,7 @@ import axios from 'axios'
 import divider from "../images/pattern-divider-desktop.svg"
 
 const AdviceContainer = () => {
-    // const [data, setData] = useState({});
     const [newData, setNewData] = useState();
-
-    
-    // useEffect(() => {
-    //     const getData = async () =>{
-    //       await axios.get("https://api.adviceslip.com/advice").then(response => {
-    //       console.log(response.data.slip);
-    //       setData(response.data.slip)
-    //     })
-    //   }     
-    //     setNewData(getData);
-    //     console.log(getData);
-    //     getData();
-  
-    //   }, []); 
 
       const {isLoading, error, data, refetch} = useQuery(["quotes"], ()=>{
         return axios.get("https://api.adviceslip.com/advice")
@@ -32,7 +17,7 @@ const AdviceContainer = () => {
 
     if (isLoading) return <h1>"Loading..."</h1> ;
 
-    if (error) return <h1>"An error has occurred: "</h1> + error.message;
+    if (error) return <h1>"An error has occurred: " + error.message </h1>; 
 
 
   return (

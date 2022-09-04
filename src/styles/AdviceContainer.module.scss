@@ -1,21 +1,26 @@
 .container{
     background-color: hsl(217, 19%, 24%);
-    width: 30%;
+    width: 32rem;
     border-radius: 10px;
     padding-left: 15px;
     padding-right: 15px;
-    text-align: center;    
+    text-align: center;   
+    
     
     h3{
         color: hsl(150, 100%, 66%);
-        font-size: 10px;
+        font-size: 14px;
+        margin-top: 40px;
     }
     p{
         color: hsl(193, 38%, 86%);
     }
 
     .divider{
-        width: 25rem;
+        width: 30rem;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
         margin-bottom: 1rem;
     }
 }

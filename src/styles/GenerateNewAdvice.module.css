@@ -1,3 +1,20 @@
 .container {
-  color: hsl(150deg, 100%, 66%);
+  border-radius: 100%;
+  background-color: hsl(150deg, 100%, 66%);
+  padding: 10px;
+  position: relative;
+  top: 16px;
+  border: none;
+}
+
+.container:hover {
+  box-shadow: 0px 0px 23px 3px #00FF80;
+}
+
+.dice {
+  width: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }/*# sourceMappingURL=GenerateNewAdvice.module.css.map */
