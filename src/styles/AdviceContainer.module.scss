@@ -14,6 +14,7 @@
     }
     p{
         color: hsl(193, 38%, 86%);
+        width: 32rem;
     }
 
     .divider{
@@ -22,5 +23,19 @@
         padding-left: 15px;
         padding-right: 15px;
         margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .container{
+        width: 20rem;
+
+        p{
+            width: 20rem;
+        }
+
+        .divider{
+            width: 18rem;
+        }
     }
 }

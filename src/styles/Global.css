@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Manrope", sans-serif;
   background-color: hsl(218deg, 23%, 16%);
 }/*# sourceMappingURL=Global.css.map */

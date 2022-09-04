@@ -13,6 +13,7 @@
 }
 .container p {
   color: hsl(193deg, 38%, 86%);
+  width: 32rem;
 }
 .container .divider {
   width: 30rem;
@@ -20,4 +21,16 @@
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 20rem;
+  }
+  .container p {
+    width: 20rem;
+  }
+  .container .divider {
+    width: 18rem;
+  }
 }/*# sourceMappingURL=AdviceContainer.module.css.map */
