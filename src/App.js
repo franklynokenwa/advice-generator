@@ -1,3 +1,4 @@
+
 import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
 import AdviceContainer from "./components/AdviceContainer";
 import AppStyle from "./styles/App.module.css"

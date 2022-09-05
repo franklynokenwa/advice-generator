@@ -6,8 +6,6 @@ import axios from 'axios'
 import divider from "../images/pattern-divider-desktop.svg"
 
 const AdviceContainer = () => {
-    const [newData, setNewData] = useState();
-
       const {isLoading, error, data, refetch} = useQuery(["quotes"], ()=>{
         return axios.get("https://api.adviceslip.com/advice")
         .then(response => 
@@ -15,9 +13,9 @@ const AdviceContainer = () => {
         )}
       )
 
-    if (isLoading) return <h1>"Loading..."</h1> ;
+    if (isLoading) return <h1 style={{color:"white"}}>Loading...</h1> ;
 
-    if (error) return <h1>"An error has occurred: " + error.message </h1>; 
+    if (error) return <h1 style={{color:"white"}}>An error has occurred:  + error.message </h1>; 
 
 
   return (
