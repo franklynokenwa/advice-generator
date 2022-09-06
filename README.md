@@ -1,4 +1,4 @@
-# Country Data App
+# Advice Generator App
 
 This is a web application that generates an advice on every button clicked. It was built with REACT, SASS(SCSS)and React Query and react-app-rewire-workbox.
 
