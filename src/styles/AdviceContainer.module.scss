@@ -39,3 +39,17 @@
         }
     }
 }
+
+@media only screen and (max-width:320px) {
+    .container{
+        width: 16rem;
+
+        p{
+            width: 16rem;
+        }
+
+        .divider{
+            width: 14rem;
+        }
+    }
+}

@@ -33,4 +33,15 @@
   .container .divider {
     width: 18rem;
   }
+}
+@media only screen and (max-width: 320px) {
+  .container {
+    width: 16rem;
+  }
+  .container p {
+    width: 16rem;
+  }
+  .container .divider {
+    width: 14rem;
+  }
 }/*# sourceMappingURL=AdviceContainer.module.css.map */
